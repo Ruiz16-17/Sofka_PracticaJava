@@ -39,15 +39,19 @@ public class Ejecutable {
 
         for (Electrodomestico tipoElectrodomestico : carritoCompras) {
 
-            if(tipoElectrodomestico instanceof Electrodomestico){
+            if(tipoElectrodomestico instanceof Electrodomestico && !(tipoElectrodomestico instanceof Lavadora) && !(tipoElectrodomestico instanceof Televisor)){
+
                 precioTotalElectrodomestico += tipoElectrodomestico.precioFinal();
                 continue;
             }
             if(tipoElectrodomestico instanceof Lavadora){
+
                 precioTotalLavadora += tipoElectrodomestico.precioFinal();
                 continue;
+
             }
             if(tipoElectrodomestico instanceof Televisor){
+
                 precioTotalTelevisor += tipoElectrodomestico.precioFinal();
                 continue;
             }

@@ -8,7 +8,7 @@ public class Electrodomestico {
 
     private final int PRECIO_BASE = 100;
     private final String COLOR = "Blanco";
-    private final char CONSUMO_ELECTRICO = 'A';
+    private final char CONSUMO_ELECTRICO = 'F';
     private final float PESO = 5;
 
     //endregion

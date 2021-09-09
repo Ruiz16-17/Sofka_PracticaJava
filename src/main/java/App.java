@@ -36,11 +36,14 @@ public class App {
 
         System.out.println("-------------------------------------FIN EJERCICIO 3------------------------\n");
 */
-        App app = new App();
 
-        Ejecutable ejercicio16 = new Ejecutable();
+        //Ejecutable ejercicio16 = new Ejecutable();
 
-        ejercicio16.ejecutarEjercicio16();
+        //ejercicio16.ejecutarEjercicio16();
+
+        Ejercicio17.Controlador.Ejecutable ejericio17 = new Ejercicio17.Controlador.Ejecutable();
+
+        ejericio17.ejecutarEjercicio17();
 
     }
 
