@@ -64,11 +64,12 @@ public class Electrodomestico {
 
     public void comprobarColor(String color){
 
-        final String []colores = {"Blancos", "Negro", "Rojo", "Azul", "Gris"};
+        final String []colores = {"blanco", "negro", "rojo", "azul", "gris"};
 
         for (int i = 0; i < 5; i++) {
 
             if(colores[i].equalsIgnoreCase(color)){
+                this.color = color;
                 break;
             }else {
                 this.color = COLOR;
@@ -160,4 +161,13 @@ public class Electrodomestico {
         return this.precioBase + calcularPrecioTamanio(this.peso) + calcularPrecioConsumoEnergetico(this.consumoElectrico);
     }
 
+    @Override
+    public String toString() {
+        return "Electrodomestico{" +
+                "precioBase=" + precioBase +
+                ", color='" + color + '\'' +
+                ", consumoElectrico=" + consumoElectrico +
+                ", peso=" + peso +
+                '}';
+    }
 }

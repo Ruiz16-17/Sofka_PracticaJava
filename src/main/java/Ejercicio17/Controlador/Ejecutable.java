@@ -57,6 +57,13 @@ public class Ejecutable {
             }
         }
 
+        for (Electrodomestico tipoElectrodomestico : carritoCompras){
+
+            System.out.println(tipoElectrodomestico.toString());
+        }
+
+        System.out.println("--------------PRECIO TOTAL------------------");
+
         System.out.println("El preicio total es:\n" +
                 "Electrodomésticos: " + precioTotalElectrodomestico + " \n" +
                 "Lavadoras: " + precioTotalLavadora + " \n" +

@@ -64,4 +64,12 @@ public class Televisor extends Electrodomestico{
 
         return (super.precioFinal() * precioResolucionMas()) + precioIsTdt();
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "Televisor{" +
+                "resolucion=" + resolucion +
+                ", isTdt=" + isTdt +
+                '}';
+    }
 }
