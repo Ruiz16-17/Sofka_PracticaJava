@@ -24,60 +24,38 @@ public class Persona {
         this.nombre = nombre;
         this.edad = edad;
         this.dni = calcularDni();
-        comprobarSexo(sexo);
         this.peso = 0;
         this.altura = 0;
+
+
+        comprobarSexo(sexo);
     }
 
     public Persona(String nombre, int edad, char sexo, float peso, float altura) {
         this.nombre = nombre;
         this.edad = edad;
-        comprobarSexo(sexo);
         this.dni = calcularDni();
         this.peso = peso;
         this.altura = altura;
 
-    }
+        comprobarSexo(sexo);
 
-    public String getNombre() {
-        return nombre;
     }
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    public int getEdad() {
-        return edad;
-    }
-
     public void setEdad(int edad) {
         this.edad = edad;
-    }
-
-    public String getDni() {
-        return dni;
-    }
-
-    public char getSexo() {
-        return sexo;
     }
 
     public void setSexo(char sexo) {
         this.sexo = sexo;
         comprobarSexo(sexo);
     }
-
-    public float getPeso() {
-        return peso;
-    }
-
     public void setPeso(float peso) {
         this.peso = peso;
-    }
-
-    public float getAltura() {
-        return altura;
     }
 
     public void setAltura(float altura) {
@@ -101,7 +79,7 @@ public class Persona {
         if(imc < 20){
 
             return bajoPeso;
-        }else if(imc > 20 && imc < 25){
+        }else if(imc >= 20 && imc <= 25){
 
             return idealPeso;
         }else{
