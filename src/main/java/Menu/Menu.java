@@ -35,6 +35,9 @@ public class Menu {
 
             switch (opcion) {
 
+                case "0":
+                    break;
+
                 case "1":
 
                     Ejercicio1 ejercicio1 = new Ejercicio1();
@@ -185,24 +188,24 @@ public class Menu {
     private void mostrarMenu(){
 
         System.out.println("Taller de java, elija una opción: \n" +
-                "0. Para salir\n" +
-                "1. Ejercicio 1\n" +
-                "2. Ejercicio 2\n" +
-                "3. Ejercicio 3\n" +
-                "4. Ejercicio 4\n" +
-                "5. Ejercicio 5\n" +
-                "6. Ejercicio 6\n" +
-                "7. Ejercicio 7\n" +
-                "8. Ejercicio 8\n" +
-                "9. Ejercicio 9\n" +
-                "10. Ejercicio 10\n" +
-                "11. Ejercicio 11\n" +
-                "12. Ejercicio 12\n" +
-                "13. Ejercicio 13\n" +
-                "14. Ejercicio 14\n" +
-                "15. Ejercicio 15\n" +
-                "16. Ejercicio 16\n" +
-                "17. Ejercicio 17\n" +
-                "18. Ejercicio 18\n");
+                "0. Para salir.\n" +
+                "1. Ejercicio 1.\n" +
+                "2. Ejercicio 2.\n" +
+                "3. Ejercicio 3.\n" +
+                "4. Ejercicio 4.\n" +
+                "5. Ejercicio 5.\n" +
+                "6. Ejercicio 6.\n" +
+                "7. Ejercicio 7.\n" +
+                "8. Ejercicio 8.\n" +
+                "9. Ejercicio 9.\n" +
+                "10. Ejercicio 10.\n" +
+                "11. Ejercicio 11.\n" +
+                "12. Ejercicio 12.\n" +
+                "13. Ejercicio 13.\n" +
+                "14. Ejercicio 14.\n" +
+                "15. Ejercicio 15.\n" +
+                "16. Ejercicio 16.\n" +
+                "17. Ejercicio 17.\n" +
+                "18. Ejercicio 18.\n");
     }
 }
