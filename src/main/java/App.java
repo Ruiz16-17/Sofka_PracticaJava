@@ -1,4 +1,4 @@
-import Ejercicio16.Controlador.Ejecutable;
+import Ejercicio18.Controlador.Ejecutable;
 import Ejercicio2.Ejercicio2;
 import Ejercicio3.Ejercicio3;
 import Ejercicio1.Ejercicio1;
@@ -41,9 +41,12 @@ public class App {
 
         //ejercicio16.ejecutarEjercicio16();
 
-        Ejercicio17.Controlador.Ejecutable ejericio17 = new Ejercicio17.Controlador.Ejecutable();
+        //Ejercicio17.Controlador.Ejecutable ejericio17 = new Ejercicio17.Controlador.Ejecutable();
 
-        ejericio17.ejecutarEjercicio17();
+        //ejericio17.ejecutarEjercicio17();
+
+        Ejercicio18.Controlador.Ejecutable ejercicio18 = new Ejecutable();
+        ejercicio18.ejecutarEjercicio18();
 
     }
 

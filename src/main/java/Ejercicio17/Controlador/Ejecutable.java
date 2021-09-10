@@ -13,29 +13,16 @@ public class Ejecutable {
         double precioTotalLavadora = 0;
         double precioTotalTelevisor = 0;
 
-        Electrodomestico electrodomestico = new Electrodomestico();
-        Electrodomestico electrodomestico2 = new Electrodomestico(5000,50);
-        Electrodomestico electrodomestico3 = new Electrodomestico(7000,"Negro",'A',70);
-
-        Lavadora lavadora = new Lavadora();
-        Lavadora lavadora2 = new Lavadora(6000,200);
-        Lavadora lavadora3 = new Lavadora(100000,"Azul",'B',300,100);
-
-        Televisor televisor = new Televisor();
-        Televisor televisor2 = new Televisor(1200,12);
-        Televisor televisor3 = new Televisor(12310,"Rojo",'C',50,100,true);
-        Televisor televisor4 = new Televisor(12,"color inexistente",'X',12,23,false);
-
-        carritoCompras[0] = electrodomestico;
-        carritoCompras[1] = electrodomestico2;
-        carritoCompras[2] = electrodomestico3;
-        carritoCompras[3] = lavadora;
-        carritoCompras[4] = lavadora2;
-        carritoCompras[5] = lavadora3;
-        carritoCompras[6] = televisor;
-        carritoCompras[7] = televisor2;
-        carritoCompras[8] = televisor3;
-        carritoCompras[9] = televisor4;
+        carritoCompras[0] = new Electrodomestico();;
+        carritoCompras[1] = new Electrodomestico(5000,50);;
+        carritoCompras[2] = new Electrodomestico(7000,"Negro",'A',70);;
+        carritoCompras[3] = new Lavadora();;
+        carritoCompras[4] = new Lavadora(6000,200);;
+        carritoCompras[5] = new Lavadora(100000,"Azul",'B',300,100);;
+        carritoCompras[6] = new Televisor();;
+        carritoCompras[7] = new Televisor(1200,12);;
+        carritoCompras[8] = new Televisor(12310,"Rojo",'C',50,100,true);;
+        carritoCompras[9] = new Televisor(12,"color inexistente",'X',12,23,false);;
 
         for (Electrodomestico tipoElectrodomestico : carritoCompras) {
 
@@ -65,9 +52,9 @@ public class Ejecutable {
         System.out.println("--------------PRECIO TOTAL------------------");
 
         System.out.println("El preicio total es:\n" +
-                "Electrodomésticos: " + precioTotalElectrodomestico + " \n" +
-                "Lavadoras: " + precioTotalLavadora + " \n" +
-                "Telvevisores: " + precioTotalTelevisor + " \n");
+                "Electrodomésticos: " + precioTotalElectrodomestico + " €\n" +
+                "Lavadoras: " + precioTotalLavadora + " €\n" +
+                "Telvevisores: " + precioTotalTelevisor + " €\n");
 
     }
 
