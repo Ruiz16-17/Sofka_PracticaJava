@@ -2,7 +2,7 @@ package Ejercicio18.Modelo;
 
 import Ejercicio18.Interfaces.Entregable;
 
-public class Videojuego implements Entregable {
+public class Videojuego implements Entregable{
 
     //region ValoresPorDefecto
 
@@ -103,6 +103,17 @@ public class Videojuego implements Entregable {
     @Override
     public int compareTo(Object objeto) {
 
-        return 0;
+        Videojuego videojuego = (Videojuego) objeto;
+
+        if(this.horasEstimadas < videojuego.getHorasEstimadas()){
+
+            return -1;
+        }else if (this.horasEstimadas > videojuego.getHorasEstimadas()){
+
+            return 1;
+        }else {
+
+            return 0;
+        }
     }
 }

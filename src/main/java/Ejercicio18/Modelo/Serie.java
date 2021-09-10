@@ -104,10 +104,10 @@ public class Serie implements Entregable {
 
         Serie serie = (Serie) objeto;
 
-        if(serie.getNumeroTemporadas() < serie.getNumeroTemporadas()){
+        if(this.numeroTemporadas < serie.getNumeroTemporadas()){
 
             return -1;
-        }else if (serie.getNumeroTemporadas() > serie.getNumeroTemporadas()){
+        }else if (this.numeroTemporadas > serie.getNumeroTemporadas()){
 
             return 1;
         }else {

@@ -26,7 +26,7 @@ public class Ejercicio2 {
 
         Scanner entrada = new Scanner(System.in);
 
-        System.out.println("¡Hola! Esperamos que esté muy bien. Para continuar, por favor digite lo siguiente:");
+        System.out.println("¡Bienvenido al ejercicio 2!");
 
             System.out.println("Primer número: ");
             int numero1 = entrada.nextInt();

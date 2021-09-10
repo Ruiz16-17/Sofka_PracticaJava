@@ -8,7 +8,7 @@ public class Ejercicio3 {
 
         Scanner entrada = new Scanner(System.in);
 
-        System.out.println("¡Hola! Esperamos que esté muy bien. Para continuar, por favor digite lo siguiente:");
+        System.out.println("¡Bienvenido al ejercicio 3!");
 
         System.out.println("Radio del círculo: ");
 

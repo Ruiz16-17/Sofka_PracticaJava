@@ -6,6 +6,8 @@ public class Ejercicio1 {
 
         String resultado;
 
+        System.out.println("¡Bienvenido al ejercicio 1!");
+
         if(numero1 > numero2){
 
             resultado = "El mayor es el primer número: " + numero1 + " ("+numero1+" > " + numero2 + ")";

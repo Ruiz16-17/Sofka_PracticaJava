@@ -4,7 +4,7 @@ import Ejercicio16.Modelo.Persona;
 
 import java.util.Scanner;
 
-public class Ejecutable {
+public class Ejercicio16 {
 
     public void ejecutarEjercicio16(){
 

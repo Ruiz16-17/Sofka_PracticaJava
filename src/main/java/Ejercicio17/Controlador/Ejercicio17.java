@@ -4,7 +4,7 @@ import Ejercicio17.Modelo.Electrodomestico;
 import Ejercicio17.Modelo.Lavadora;
 import Ejercicio17.Modelo.Televisor;
 
-public class Ejecutable {
+public class Ejercicio17 {
 
     public void ejecutarEjercicio17(){
 
